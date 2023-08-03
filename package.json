@@ -10,6 +10,7 @@
     "repo:upstream": "git fetch upstream && git merge upstream/main"
   },
   "dependencies": {
+    "@strapi/provider-upload-aws-s3": "^4.12.1",
     "concurrently": "^7.6.0"
   }
 }

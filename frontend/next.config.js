@@ -8,16 +8,16 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'http',
-        hostname: 'localhost',
+        hostname: '13.213.46.85',
         port: '1337',
         pathname: '/uploads/**',
       },
       {
         protocol: 'https',
         hostname: 'images.pexels.com',
-      }
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
